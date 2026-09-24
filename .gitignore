@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Local credentials and machine-specific environment
+.env
+.env.*
+!.env.example
+
+# Generated Prisma Client and build output
+/generated/
+/dist/
+/coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local AI/editor configuration
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
